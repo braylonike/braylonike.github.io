@@ -10,3 +10,24 @@ nav a {
     text-decoration: none;
     color: #0077cc;
 }
+header {
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0077cc;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
