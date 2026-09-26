@@ -1,64 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Contact Braylon Ike."
+  >
+
+  <title>Contact | Braylon Ike</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Esteban&family=Rasa:ital,wght@0,300..700;1,300..700&family=Rufina:wght@400;700&family=Sumana:wght@400;700&display=swap" rel="stylesheet">
-  <title>Braylon Ike | Mechanical Engineering Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <div class="container">
-    <header class="header">
-      <p>Braylon Ike | Mechanical Engineering Student | Cal Poly Pomona</p>
-      <nav>
-        <a href="index.html">About</a>
+  <div class="site-shell">
+
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">BI</span>
+
+        <span>
+          <strong>Braylon Ike</strong>
+          <small>Mechanical Engineering</small>
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        Menu
+      </button>
+
+      <nav
+        id="site-nav"
+        class="site-nav"
+        aria-label="Main navigation"
+      >
+        <a href="index.html">About Me</a>
         <a href="projects.html">Projects</a>
         <a href="resume.html">Resume</a>
-        <a href="contact.html">Contact</a>
+        <a class="active" href="contact.html">Contact</a>
       </nav>
     </header>
 
     <main>
-	<!--
-      <section id="contact">
-        
-        <p>Email: <a href="mailto:ikebray0406@gmail.com">ikebray0406@gmail.com</a></p>
-        <p>Phone: (909) 368-7672</p>
+      <section class="page-intro">
+        <div class="eyebrow">
+          <span class="eyebrow-line"></span>
+          Start a conversation
+        </div>
+
+        <h1>
+          Contact<span class="orange-dot">.</span>
+        </h1>
+
+        <p>
+          I am currently interested in mechanical engineering internship
+          opportunities and conversations about design, energy systems,
+          and hands-on engineering work.
+        </p>
       </section>
-    -->
-	<section>
-	<h2>Contact</h2>
-	<div class="contact">
-		<div class="bar">
-			<div class="bubble">
-				<h3> Get in touch </h3>
-				<hr>
-				<p>If you want to get in contact with me, feel free to email me. I keep in touch with my emails daily, so I should be able to respond to you pretty fast. That being said, if it's more urgent, you can text or call me. Just be aware that if you call me, I probably won't pick up till the second ring.</p>
-			</div>
-		
-			<div class="bubble">
-				<h3> Email: </h3>
-				<hr>
-				<p><a href="mailto:ikebray0406@gmail.com">ikebray0406@gmail.com</a></p>
-			</div>
-			
-			<div class="bubble"> 
-				<h3> Phone: </h3>
-				<hr>
-				<p>(909) 368-7672</p>
-			</div>
-			
-		</div>
-	</div>
-	<section>
+
+      <section class="contact-grid">
+        <a
+          class="contact-card"
+          href="mailto:ikebray0406@gmail.com"
+        >
+          <span class="contact-label">Email</span>
+          <strong>ikebray0406@gmail.com</strong>
+          <span class="contact-arrow">↗</span>
+        </a>
+
+        <a
+          class="contact-card"
+          href="tel:+19093687672"
+        >
+          <span class="contact-label">Phone</span>
+          <strong>(909) 368-7672</strong>
+          <span class="contact-arrow">↗</span>
+        </a>
+      </section>
     </main>
 
-    <footer>
-      <p>&copy; 2025 Braylon Ike</p>
+    <footer class="site-footer">
+      <span>© 2026 Braylon Ike</span>
+      <span>Cal Poly Pomona · Brea, California</span>
     </footer>
+
   </div>
+
+  <script src="site.js"></script>
 </body>
 </html>

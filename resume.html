@@ -1,40 +1,112 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Resume of Braylon Ike."
+  >
+
+  <title>Resume | Braylon Ike</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Esteban&family=Rasa:ital,wght@0,300..700;1,300..700&family=Rufina:wght@400;700&family=Sumana:wght@400;700&display=swap" rel="stylesheet">
-  <title>Braylon Ike | Mechanical Engineering Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <div class="container">
-    <header class="header">
-      <p>Braylon Ike | Mechanical Engineering Student | Cal Poly Pomona</p>
-      <nav>
-        <a href="index.html">About</a>
+  <div class="site-shell">
+
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">BI</span>
+
+        <span>
+          <strong>Braylon Ike</strong>
+          <small>Mechanical Engineering</small>
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        Menu
+      </button>
+
+      <nav
+        id="site-nav"
+        class="site-nav"
+        aria-label="Main navigation"
+      >
+        <a href="index.html">About Me</a>
         <a href="projects.html">Projects</a>
-        <a href="resume.html">Resume</a>
+        <a class="active" href="resume.html">Resume</a>
         <a href="contact.html">Contact</a>
       </nav>
     </header>
 
     <main>
-	<!--
-      <section id="resume">
-        <h2>Resume</h2>
-        <p>Download my resume <a class="resume-button" href="Braylon_Ike_Resume.pdf" target="_blank">here</a>.</p>
+      <section class="page-intro compact">
+        <div class="eyebrow">
+          <span class="eyebrow-line"></span>
+          Professional profile
+        </div>
+
+        <h1>
+          Resume<span class="orange-dot">.</span>
+        </h1>
+
+        <p>
+          My current résumé and technical background.
+        </p>
+
+        <div class="button-row">
+          <a
+            class="button button-primary"
+            href="Braylon_Ike_Resume.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            Open PDF <span>↗</span>
+          </a>
+
+          <a
+            class="button button-secondary"
+            href="Braylon_Ike_Resume.pdf"
+            download
+          >
+            Download <span>↓</span>
+          </a>
+        </div>
       </section>
-    -->
-	<embed class="resume" src="Braylon_Ike_Resume.pdf" type="application/pdf"title="resume" />
+
+      <section class="resume-frame">
+        <embed
+          src="Braylon_Ike_Resume.pdf"
+          type="application/pdf"
+          title="Braylon Ike resume"
+        >
+
+        <p>
+          Your browser cannot display the PDF.
+          <a href="Braylon_Ike_Resume.pdf">
+            Open the résumé here.
+          </a>
+        </p>
+      </section>
     </main>
 
-    <footer>
-      <p>&copy; 2025 Braylon Ike</p>
+    <footer class="site-footer">
+      <span>© 2026 Braylon Ike</span>
+      <span>Cal Poly Pomona · Brea, California</span>
     </footer>
-  </div>
-</body>
-</html>
